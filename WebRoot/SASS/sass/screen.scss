@@ -68,6 +68,40 @@ section{
 	width: 45%;
 	display: inline-block;
 
+
+	background: url("https://cdn.webaddressgoeshere.com/MosDuction/BackGround.jpg") no-repeat  ; 
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+
+	@include transition(all 1.5s ease);
+
+	@include respond-to('mobile') {
+		background-position: -170px;
+	}
+
+	@include respond-to('small') {
+
+		background: url("https://cdn.webaddressgoeshere.com/MosDuction/BackGround.jpg") no-repeat; 
+		background-position-x: 20%;
+		background-size: contain;
+	
+	}
+
+	@include respond-to('medium') {
+
+		background: url("https://cdn.webaddressgoeshere.com/MosDuction/BackGround.jpg") no-repeat center center ;
+		background-size: contain;
+		
+	}
+
+	@include respond-to('large') {
+
+		background: url("https://cdn.webaddressgoeshere.com/MosDuction/BackGround.jpg") no-repeat center center ; 
+		background-size: contain;
+	}
+
 }
 
 
