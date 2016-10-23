@@ -1,10 +1,10 @@
 <footer>
 <div id="footerContentWrapper">
-   <div id="FooterLogoWrapper">
-      <img id="FooterLogo" src="/assets/media/ACSSLogo.png" alt="Aston Computer Science Society Logo">
-   </div>
+  
+      
+  
 <address>
-   Aston Computer Science Society<br>MB263<br>Aston University<br>Aston Triangle<br>Birmingham<br>B4 7ET
+  
 </address>
 </div>
 </footer>

@@ -13,7 +13,7 @@
       //Make an object of the pageLinkScriptsCSS class for storing the CSS requirements for the header:
       $pageRequirements = new pageLinkScriptsCSS();
 
-      $pageRequirements->add("css", ['CSSFIleName.css', 'Animate.css']);
+      $pageRequirements->add("css", ['screen.css', 'Animate.css']);
 
       $pageRequirements->add("title", 'Page title');
 
