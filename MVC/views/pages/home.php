@@ -16,7 +16,7 @@ echo '<body>';
 
 	<article id="instructins">
 
-		<h1 id="pageHeading">MosDuction</h1>
+		<h1 id="pageHeading" class="animated rollIn" >MosDuction</h1>
 
 	</article>
 
