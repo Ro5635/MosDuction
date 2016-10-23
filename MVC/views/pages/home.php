@@ -10,39 +10,63 @@ echo '<body>';
 
 
 ?>
- <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
 <section>
 
-	<article id="instructins">
+	<div id="backgroundImagetarget">
 
-		<h1 id="pageHeading" class="animated rollIn" >MosDuction</h1>
+		<article id="instructins">
 
-	</article>
+			<h1 id="pageHeading" class="animated rollIn" >MosDuction</h1>
 
-	<article id="scope1" class="scope">
+		</article>
 
-		<div id="chart_div"></div>
+		<article id="scope1" class="scope">
 
-	</article>
+			<div id="chart_div"></div>
+			<div id="chart2_div"></div>
 
-	<article id="gameDisplay">
+		</article>
 
+		<article id="gameDisplay">
 
-	</article>
+			<img id="show" class="animated lightSpeedin " src="https://cdn.webaddressgoeshere.com/MosDuction/ufo/ufo001.png" >
+		
+			<img id="showman" class="animated lightSpeedin " src="https://cdn.webaddressgoeshere.com/MosDuction/man/man001.png" >
+		</article>
 
-	<article id="scope2"  class="scope">
+<!-- 	<article id="scope2"  class="scope">
 
 		<div id="chart2_div"></div>
 
-	</article>
+	</article> -->
 
 
-	<article id="controlls">
+</div><!-- backgroud image target end -->
+
+<article id="controlls">
+
+	Input voltage (pp):
+	<input type="text" id="inputVolt" value="15" placeholder="">
+	<br>
+
+	Resistor 1:
+	<input type="range" min="1" max="1000" id="resistor1" value="150"  placeholder="">
+
+	<br>
+	Resistor 2:
+	<input type="range" min="1" max="1000" id="resistor2" value="	" placeholder="">
+
+	<br>
+	Frequency:
+	<input type="text" id="frequencyVal" value="100" placeholder="">
 
 
-	</article>
 
+
+</article>
+	
 
 
 
